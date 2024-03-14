@@ -1,0 +1,32 @@
+.text-center {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 560px;
+}
+
+.bg-red {
+    background: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.m-w-20 {
+    max-width: 30vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}

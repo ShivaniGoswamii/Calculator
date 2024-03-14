@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.border {
+    height: 120px;
+    width: 80px;
+    color: light-grey;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 20px;
+    width: 140px;
+    height: 50px;
+    margin: 0px 0px;
+    border: 1.5px solid rgba(211, 211, 211, 0.763);
+    cursor: pointer;
+    background-color: white;
+    font-size: 22px;
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+.button1:hover {
+    background-color: orange;
+}
+
+
+.button1 {
+    width: 280px;
+    background-color: white;
+    cursor: pointer;
+    border: 1.5px solid rgba(211, 211, 211, 0.763);
+    font-size: 22px;
+}
+
+.row {
+    margin: 0px 0px;
+    display: flex;
+    color: white;
+}
+
+.row input {
+    font-size: 23px;
+    margin: 16px;
+    padding: 12px 0px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    height: 60px;
+    width: 560px;
+}
+
+
+.main-container {
+    height: 455px;
+    width: 570px;
+    border: 5px solid lightgrey;
+    border-radius: 5px;
+    align: center;
+    background-color: lightgrey;
+
+}
+
+/* .buttons[data-value="0"] {
+  width: 50%;
+  border-bottom-left-radius: 10px;
+}
+
+Arithmatic Operators have a separate background color 
+
+.buttons[data-value="="] {
+  background-color: #ff8100f0;
+  border-bottom-right-radius: 10px;
+}
+
+.buttons:nth-child(4n + 1) {
+  background-color: #ff8100f0;
+}
+
+.buttons:nth-child(4n + 1):hover,
+.buttons[data-value="="]:hover {
+  background-color: #f5ad66f0;
+} */
